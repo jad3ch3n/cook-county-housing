@@ -1,0 +1,11 @@
+# Ignore data and results
+data/
+*.zip
+
+# Ignore notebook checkpoints and Python cache
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# System files
+.DS_Store
