@@ -66,8 +66,8 @@ open cook-county-analysis.html
 | Model 2 | Bedrooms + Log(Building Sq Ft)   | 0.8059           |
 | Final   | 13 engineered features           | 0.3716           |
 
-- **Interpretation**: RMSE decreased markedly across models—from 0.87 (Model 1) to 0.81 (Model 2) to 0.37 (Final Model)—highlighting how each feature engineering step cut error by over 57 % in total.  
-- **Fairness**: Residual analysis shows **regressive** assessment bias—lower-value properties are overestimated more often, placing a heavier proportional burden on low-income homeowners.
+- **Interpretation**: RMSE decreased markedly across models from 0.87 (Model 1) to 0.81 (Model 2) to 0.37 (Final Model), highlighting how each feature engineering step cut error by over 57 % in total.  
+- **Fairness**: Residual analysis shows **regressive** assessment bias where lower-value properties are overestimated more often, placing a heavier proportional burden on low-income homeowners.
 
 ## 📝 Conclusions & Next Steps
 - **🧐 Conclusions**  
